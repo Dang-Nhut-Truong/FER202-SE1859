@@ -1,2 +1,3 @@
 import { order } from './model';
-export const total = order;
+import { db } from '../db/client';
+export const total = order + db;
