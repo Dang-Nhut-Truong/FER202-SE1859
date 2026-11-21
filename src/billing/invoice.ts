@@ -1,1 +1,2 @@
-export const bill = 2;
+import { order } from '../orders/model';
+export const bill = order;
