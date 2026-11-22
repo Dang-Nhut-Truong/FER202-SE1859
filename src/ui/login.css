@@ -1,0 +1,7 @@
+body { font-family: system-ui, sans-serif; background: #f1f5f9; display: grid; place-items: center; min-height: 100vh; margin: 0; }
+.card { background: #fff; padding: 32px; border-radius: 12px; width: 320px; box-shadow: 0 8px 24px rgb(0 0 0 / .08); }
+label { display: block; margin-top: 12px; font-size: 14px; }
+input { display: block; width: 100%; box-sizing: border-box; margin-top: 4px; padding: 8px; border: 1px solid #cbd5e1; border-radius: 6px; }
+button { margin-top: 20px; width: 100%; padding: 10px; border: 0; border-radius: 6px; background: #2563eb; color: #fff; font-weight: 600; cursor: pointer; }
+button:disabled { opacity: .6; cursor: wait; }
+.error { color: #dc2626; font-size: 13px; min-height: 1em; margin: 4px 0 0; }
